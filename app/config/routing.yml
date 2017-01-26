@@ -1,0 +1,7 @@
+a_drushka_t:
+    resource: "@ADrushkaTBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation

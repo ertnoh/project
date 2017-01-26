@@ -1,0 +1,7 @@
+a_drushka_t_post:
+    resource: "@ADrushkaTBundle/Resources/config/routing/post.yml"
+    prefix:   /post
+
+a_drushka_t_homepage:
+    path:     /
+    defaults: { _controller: ADrushkaTBundle:Default:index }
